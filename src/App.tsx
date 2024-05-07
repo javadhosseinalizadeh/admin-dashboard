@@ -13,6 +13,7 @@ import Products from './Pages/products/Products';
 import Login from './Pages/login/Login';
 import './styles/global.scss'
 import User from './Pages/user/User';
+import Product from './Pages/product/Product';
 
 
 function App() {
@@ -58,10 +59,10 @@ function App() {
           path: "/users/:id",
           element: <User />,
         },
-        // {
-        //   path: "/products/:id",
-        //   element: <Product />,
-        // },
+        {
+          path: "/products/:id",
+          element: <Product />,
+        },
       ],
     },
     {
