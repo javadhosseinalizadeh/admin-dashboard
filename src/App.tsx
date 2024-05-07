@@ -12,6 +12,7 @@ import Users from './Pages/users/Users';
 import Products from './Pages/products/Products';
 import Login from './Pages/login/Login';
 import './styles/global.scss'
+import User from './Pages/user/User';
 
 
 function App() {
@@ -53,10 +54,10 @@ function App() {
           path: "/products",
           element: <Products />,
         },
-        // {
-        //   path: "/users/:id",
-        //   element: <User />,
-        // },
+        {
+          path: "/users/:id",
+          element: <User />,
+        },
         // {
         //   path: "/products/:id",
         //   element: <Product />,
